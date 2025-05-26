@@ -1,7 +1,7 @@
 
 
 
-### What is PostgreSQL?
+### 1. What is PostgreSQL?
 PostgreSQL is a powerful, open-source relational database management system (RDBMS). It is used to store, manage, and retrieve data efficiently. PostgreSQL supports standard SQL and also offers many advanced features like support for JSON, complex queries, custom data types, and ACID-compliant transactions. It is known for its reliability, security, and scalability, and is widely used in web applications, data analytics, and enterprise systems. Being open-source, it is freely available and supported by a strong developer community.
 
 #### In Bangla 
@@ -23,7 +23,7 @@ CREATE TABLE students (
 
 
 
-### What is the purpose of a database schema in PostgreSQL?
+### 2. What is the purpose of a database schema in PostgreSQL?
 
 In PostgreSQL, a schema is a logical container that holds database objects like tables, views, functions, indexes, and sequences. It helps organize database objects into separate namespaces, which allows better data management, especially in large or complex databases.
 
@@ -48,7 +48,7 @@ CREATE TABLE wildlife.animals (
 ```
 
 
-### Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+### 3. Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 
 Primary Key: Uniquely identifies each record in a table. It must be unique and not null.
 
@@ -75,7 +75,7 @@ CREATE TABLE sightings (
 ```
 Here, ranger_id in the sightings table is a foreign key referring to the primary key in the rangers table.
 
-### What is the difference between the VARCHAR and CHAR data types?
+### 4. What is the difference between the VARCHAR and CHAR data types?
 VARCHAR(n) stores variable-length character strings up to n characters. It is more flexible and memory-efficient.
 
 CHAR(n) stores fixed-length strings. If the input is shorter than n, it is padded with spaces.
@@ -99,7 +99,7 @@ CREATE TABLE species (
 
 ```
 
-### Explain the purpose of the WHERE clause in a SELECT statement.
+### 5. Explain the purpose of the WHERE clause in a SELECT statement.
 
 The WHERE clause is used to filter rows in a SQL query. It retrieves only those rows that meet a specific condition.
 
